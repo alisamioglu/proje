@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85538087080",
+    "project_id": "newp1-fe35c",
+    "storage_bucket": "newp1-fe35c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85538087080:android:d0d5cecd2024be7e6ee29d",
+        "android_client_info": {
+          "package_name": "com.samioglu.newp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85538087080-6lq16rtg0udaghenm97jr2nlaha441er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT7ELCWpIC5RNL6cFCy4VM2pNDRwWGQtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85538087080-6lq16rtg0udaghenm97jr2nlaha441er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
