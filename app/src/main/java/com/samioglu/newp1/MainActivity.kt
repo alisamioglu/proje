@@ -3,14 +3,10 @@ package com.samioglu.newp1
 
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
-
-import android.widget.TextView
-import com.google.firebase.analytics.FirebaseAnalytics
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -44,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     //Signed In
                     Toast.makeText(applicationContext,"Hoşgeldin: ${auth.currentUser?.email.toString()}",Toast.LENGTH_LONG).show()
-                    val intent = Intent(applicationContext, HomeActivity::class.java)
+                    val intent = Intent(applicationContext, MainActivity2::class.java)
                     startActivity(intent)
                     finish()
 
@@ -68,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             auth.createUserWithEmailAndPassword(userEmail,password).addOnCompleteListener { task ->
 
                 if (task.isSuccessful) {
-                    val intent = Intent(applicationContext, HomeActivity::class.java)
+                    val intent = Intent(applicationContext, MainActivity2::class.java)
                     startActivity(intent)
                     finish()
                 }
